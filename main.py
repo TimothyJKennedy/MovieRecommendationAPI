@@ -13,7 +13,7 @@ movies = {
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the Movie Recommendation API!"}
+    return {"message": "Welcome to Timothy's Movie Recommendation API!"}
 
 @app.get("/recommendations/")
 def get_recommendations(genre: str):
